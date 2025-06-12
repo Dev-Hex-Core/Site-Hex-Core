@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Rocket Boost</title>
+
+  <!--  CSS intégré ici -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #0d0d0d, #1f1f2e);
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #12121a;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #00bfff;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #00bfff;
+      font-size: 2.2em;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      border-bottom: 1px solid #2a2a40;
+    }
+
+    h2 {
+      color: #00bfff;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #12121a;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1> Team Hex Core</h1>
+    <nav>
+      <ul>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="#membres">Roster</a></li>
+        <li><a href="#palmares">Palmarès</a></li>
+        <li><a href="#contact">Sponsoring</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="presentation">
+    <h2>Présentation</h2>
+    <p>Hex Core est une équipe eSport spécialisée sur <strong>Rocket League</strong>. Créée en 2025, notre mission est simple : monter dans les classements, gagner des tournois, et représenter fièrement nos couleurs !</p>
+  </section>
+
+  <section id="membres">
+    <h2>Roster</h2>
+    <ul>
+      <li><strong>Speedy</strong> – Capitaine & Rotation</li>
+      <li><strong>Fury</strong> – Attaquant / Aérien</li>
+      <li><strong>Shield</strong> – Défenseur</li>
+      <li><em>Coach :</em> Vision – Analyse & Stratégie</li>
+    </ul>
+  </section>
+
+  <section id="palmares">
+    <h2>Palmarès</h2>
+    <ul>
+      <li>Notre équipe est actuellement en phase de préparation et d'entraînement intensif. Bien que nous n’ayons pas encore de palmarès officiel, notre objectif est de débuter la compétition prochainement et de construire un historique solide dans la scène Rocket League.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Sponsoring</h2>
+    <p>Vous êtes une marque ou un fan ? Contactez-nous pour sponsoriser notre team ou nous soutenir !</p>
+    <p><a href="hexcore.direction@gmail.com">📧 hexcore.direction@gmail.com</a></p>
+    <p>Suivez-nous :
+      <a href="#">Twitch</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">YouTube</a> |
+      <a href="#">Discord</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hex Core. Engineered For Success</p>
+  </footer>
+</body>
+</html>
